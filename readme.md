@@ -24,3 +24,27 @@ A simple memory card-matching game built using vanilla JavaScript, HTML, and CSS
 4. You have a limited number of chances (24 by default) to match all the pairs. If you matched all the card within 24 chances you Win.Greater than 24 You lose.
 5. Press the **Restart** button to restart the game.
 6. Press the **Shuffle** button to Shuffle the Cards.
+
+ 🚀 Live Demo
+🔗 [Click here to play the Memory Game](https://brain-memorygame.netlify.app/)
+
+### 💻 Desktop View
+Full-screen experience with grid layout and game interactions.
+
+![Screenshot of the Memory Game in Desktop Screen View](./Assets/desktop-view.png)
+
+### 📲 Tablet View
+Optimized layout with medium-size screen responsiveness.
+
+![Screenshot of the Memory Game in Tablet Screen View](./Assets/mobile-view.png)
+
+### 📱 Mobile View
+Responsive layout of the memory game on a mobile screen.
+
+![Screenshot of the Memory Game in Mobile Screen View](./Assets/extra-small-screen.png)
+
+---
+
+## 🙌 Credits
+
+Developed with ❤️ by [Ramana S](https://github.com/CodeRamana)
