@@ -81,6 +81,10 @@ for (let i = 0; i < 12; i++) {
     div.addEventListener('mouseup', (e) => {
         // flip count is dynamically Updated
         document.querySelector('#flipMade > span').textContent = parseInt(document.querySelector('#flipMade > span').textContent) + 1;
+        if( parseInt(document.querySelector('#flipMade > span').textContent) > 24){
+            const span = document.querySelector('#flipMade > span');
+            span.style.color ="red"
+        }
         const image = e.target.children[0]
         if (image !== undefined) {
             //clicked image is block and added class flipped
