@@ -139,6 +139,8 @@ shuffleBtn.addEventListener('click', (e) => {
     document.querySelector('#flipMade > span').textContent = 0;
     trackingCard.length = 0;
 
+     const span = document.querySelector('#flipMade > span');
+     span.style.color ="#3b5bdb"
 })
 
 // logic for Reset Btn.
